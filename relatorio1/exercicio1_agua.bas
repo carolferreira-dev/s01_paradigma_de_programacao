@@ -1,0 +1,31 @@
+'FACA UM PROGRAMA QUE LEIA O PESO DE UMA PESSOA'
+'(EM KG) E A QUANTIDADE DE AGUA QUE ELA INGERIU NO'
+'DIA (EM ML). A META DIARIA RECOMENDADA DE AGUA E CALCULADA'
+'MULTIPLICANDO O PESO DO INDIVIDUO POR 35ML.'
+'- SE A QUANTIDADE INGERIDA FOR MAIOR OU IGUAL A META RECOMENDADA, EXIBA A MENSAGEM "META ATINGIDA!"''
+'- CASO CONTRARIO, EXIBA A MENSAGEM: "META NAO ATINGIDA"'
+
+'declaracao de variaveis'
+DIM peso AS DOUBLE
+DIM agua AS DOUBLE
+DIM meta AS DOUBLE
+
+'entrada de dados'
+PRINT "Qual o seu peso? "
+INPUT peso
+
+PRINT "Quantidade de agua ingerida: "
+INPUT agua
+
+'desenvolvimento'
+meta = peso * 35
+
+'saida de dados'
+IF agua >= meta THEN
+    PRINT "Meta atingida!"
+ELSE
+    PRINT "Meta nao atingida"
+END IF
+
+'fim do codigo'
+SLEEP
