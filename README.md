@@ -30,7 +30,8 @@ A disciplina estuda a evolução histórica das linguagens de programação, a s
 | 07 | Orientado a objetos | C# |
 | 08 | Orientado a objetos | Python |
 | 09 | Orientado a objetos | Ruby |
-| 10+ | Orientado a objetos, funcional e lógico | JavaScript, LISP, Elixir, Haskell, Prolog e Logtalk |
+| 10 | Orientado a objetos | JavaScript |
+| 11+ | Funcional e lógico | LISP, Elixir, Haskell, Prolog e Logtalk |
 
 ---
 
@@ -47,6 +48,7 @@ s01_paradigma_de_programacao/
 ├── relatorio7/               # C#
 ├── relatorio8/               # Python
 ├── relatorio9/               # Ruby
+├── relatorio10/              # JavaScript
 └── README.md
 ```
 
@@ -56,7 +58,7 @@ s01_paradigma_de_programacao/
 
 ## 🚀 Tecnologias utilizadas
 
-- **Linguagens:** Basic, Lua, Rust, Go, C++, C#, Python e Ruby (e as próximas da disciplina)
+- **Linguagens:** Basic, Lua, Rust, Go, C++, C#, Python, Ruby e JavaScript (e as próximas da disciplina)
 - **Ambiente de desenvolvimento:** VS Code
 
 ---
@@ -84,14 +86,14 @@ s01_paradigma_de_programacao/
    | C# | `dotnet run` (dentro de um projeto) ou `csc Exercicio01.cs` |
    | Python | `python exercicio01.py` |
    | Ruby | `ruby Ex_01.rb` |
+   | JavaScript | `node Ex_01.js` |
 
 ---
 
 ## ✅ Progresso
 
 - [x] Imperativo: Basic, Lua, Rust e Go
-- [x] Orientado a objetos: C++, C#, Python e Ruby
-- [ ] Orientado a objetos: JavaScript
+- [x] Orientado a objetos: C++, C#, Python, Ruby e JavaScript
 - [ ] Funcional: LISP, Elixir e Haskell
 - [ ] Lógico: Prolog e Logtalk
 
