@@ -33,7 +33,8 @@ A disciplina estuda a evolução histórica das linguagens de programação, a s
 | 10 | Orientado a objetos | JavaScript |
 | 11 | Orientado a objetos | Java |
 | 12 | Funcional | Haskell |
-| 13+ | Funcional e lógico | LISP, Elixir, Prolog e Logtalk |
+| 13 | Funcional | Common Lisp |
+| 14+ | Funcional e lógico | Elixir, Prolog e Logtalk |
 
 ---
 
@@ -53,6 +54,7 @@ s01_paradigma_de_programacao/
 ├── relatorio10/              # JavaScript
 ├── relatorio11/              # Java
 ├── relatorio12/              # Haskell
+├── relatorio13/              # Common Lisp
 └── README.md
 ```
 
@@ -62,7 +64,7 @@ s01_paradigma_de_programacao/
 
 ## 🚀 Tecnologias utilizadas
 
-- **Linguagens:** Basic, Lua, Rust, Go, C++, C#, Python, Ruby, JavaScript, Java e Haskell (e as próximas da disciplina)
+- **Linguagens:** Basic, Lua, Rust, Go, C++, C#, Python, Ruby, JavaScript, Java, Haskell e Common Lisp (e as próximas da disciplina)
 - **Ambiente de desenvolvimento:** VS Code
 
 ---
@@ -93,6 +95,7 @@ s01_paradigma_de_programacao/
    | JavaScript | `node Ex_01.js` |
    | Java | `javac Exercicio01.java` e depois `java Exercicio01` |
    | Haskell | `runghc Exercicio01.hs` |
+   | Common Lisp | `sbcl --script Exercicio01.lsp` |
 
 ---
 
@@ -100,7 +103,7 @@ s01_paradigma_de_programacao/
 
 - [x] Imperativo: Basic, Lua, Rust e Go
 - [x] Orientado a objetos: C++, C#, Python, Ruby, JavaScript e Java
-- [ ] Funcional: Haskell (feito), LISP e Elixir
+- [ ] Funcional: Haskell e Common Lisp (feitos) e Elixir
 - [ ] Lógico: Prolog e Logtalk
 
 ---
