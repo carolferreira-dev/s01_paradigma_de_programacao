@@ -31,7 +31,9 @@ A disciplina estuda a evolução histórica das linguagens de programação, a s
 | 08 | Orientado a objetos | Python |
 | 09 | Orientado a objetos | Ruby |
 | 10 | Orientado a objetos | JavaScript |
-| 11+ | Funcional e lógico | LISP, Elixir, Haskell, Prolog e Logtalk |
+| 11 | Orientado a objetos | Java |
+| 12 | Funcional | Haskell |
+| 13+ | Funcional e lógico | LISP, Elixir, Prolog e Logtalk |
 
 ---
 
@@ -49,6 +51,8 @@ s01_paradigma_de_programacao/
 ├── relatorio8/               # Python
 ├── relatorio9/               # Ruby
 ├── relatorio10/              # JavaScript
+├── relatorio11/              # Java
+├── relatorio12/              # Haskell
 └── README.md
 ```
 
@@ -58,7 +62,7 @@ s01_paradigma_de_programacao/
 
 ## 🚀 Tecnologias utilizadas
 
-- **Linguagens:** Basic, Lua, Rust, Go, C++, C#, Python, Ruby e JavaScript (e as próximas da disciplina)
+- **Linguagens:** Basic, Lua, Rust, Go, C++, C#, Python, Ruby, JavaScript, Java e Haskell (e as próximas da disciplina)
 - **Ambiente de desenvolvimento:** VS Code
 
 ---
@@ -87,14 +91,16 @@ s01_paradigma_de_programacao/
    | Python | `python exercicio01.py` |
    | Ruby | `ruby Ex_01.rb` |
    | JavaScript | `node Ex_01.js` |
+   | Java | `javac Exercicio01.java` e depois `java Exercicio01` |
+   | Haskell | `runghc Exercicio01.hs` |
 
 ---
 
 ## ✅ Progresso
 
 - [x] Imperativo: Basic, Lua, Rust e Go
-- [x] Orientado a objetos: C++, C#, Python, Ruby e JavaScript
-- [ ] Funcional: LISP, Elixir e Haskell
+- [x] Orientado a objetos: C++, C#, Python, Ruby, JavaScript e Java
+- [ ] Funcional: Haskell (feito), LISP e Elixir
 - [ ] Lógico: Prolog e Logtalk
 
 ---
